@@ -1,0 +1,161 @@
+{
+  "☠️": {
+    "safety::violent": "approved"
+  },
+  "♠️": {
+    "safety::gambling": "rejected"
+  },
+  "♣️": {
+    "safety::gambling": "rejected"
+  },
+  "♥️": {
+    "safety::gambling": "rejected"
+  },
+  "♦️": {
+    "safety::gambling": "rejected"
+  },
+  "⚔️": {
+    "safety::violent": "approved"
+  },
+  "🀄️": {
+    "safety::gambling": "rejected"
+  },
+  "🃏": {
+    "safety::gambling": "approved"
+  },
+  "🍄": {
+    "safety::substances": "rejected"
+  },
+  "🍆": {
+    "safety::suggestive": "approved"
+  },
+  "🍌": {
+    "safety::suggestive": "rejected"
+  },
+  "🍑": {
+    "safety::suggestive": "approved"
+  },
+  "🍶": {
+    "safety::substances": "approved"
+  },
+  "🍷": {
+    "safety::substances": "approved"
+  },
+  "🍸️": {
+    "safety::substances": "approved"
+  },
+  "🍹": {
+    "safety::substances": "approved"
+  },
+  "🍺": {
+    "safety::substances": "approved"
+  },
+  "🍻": {
+    "safety::substances": "approved"
+  },
+  "🍾": {
+    "safety::substances": "approved"
+  },
+  "🎰": {
+    "safety::gambling": "approved"
+  },
+  "🎲": {
+    "safety::gambling": "approved"
+  },
+  "🎴": {
+    "safety::gambling": "rejected"
+  },
+  "🏇": {
+    "safety::gambling": "rejected"
+  },
+  "🏹": {
+    "safety::violent": "approved"
+  },
+  "👄": {
+    "safety::suggestive": "rejected"
+  },
+  "👅": {
+    "safety::suggestive": "approved"
+  },
+  "👊": {
+    "safety::violent": "rejected"
+  },
+  "👙": {
+    "safety::suggestive": "rejected"
+  },
+  "💀": {
+    "safety::violent": "rejected"
+  },
+  "💉": {
+    "safety::substances": "rejected"
+  },
+  "💊": {
+    "safety::substances": "approved"
+  },
+  "💋": {
+    "safety::suggestive": "rejected"
+  },
+  "💢": {
+    "safety::violent": "rejected"
+  },
+  "💣️": {
+    "safety::violent": "approved"
+  },
+  "💥": {
+    "safety::violent": "rejected"
+  },
+  "💦": {
+    "safety::suggestive": "approved"
+  },
+  "🔞": {
+    "safety::suggestive": "approved"
+  },
+  "🔪": {
+    "safety::violent": "approved"
+  },
+  "🔫": {
+    "safety::violent": "approved"
+  },
+  "🗡️": {
+    "safety::violent": "approved"
+  },
+  "😏": {
+    "safety::suggestive": "approved"
+  },
+  "🚬": {
+    "safety::substances": "approved"
+  },
+  "🥂": {
+    "safety::substances": "approved"
+  },
+  "🥃": {
+    "safety::substances": "approved"
+  },
+  "🥊": {
+    "safety::violent": "rejected"
+  },
+  "🥴": {
+    "safety::substances": "rejected"
+  },
+  "🥵": {
+    "safety::suggestive": "approved"
+  },
+  "🥷": {
+    "safety::violent": "rejected"
+  },
+  "🧨": {
+    "safety::violent": "rejected"
+  },
+  "🩸": {
+    "safety::violent": "approved"
+  },
+  "🪓": {
+    "safety::violent": "approved"
+  },
+  "🪖": {
+    "safety::violent": "rejected"
+  },
+  "🫦": {
+    "safety::suggestive": "approved"
+  }
+}

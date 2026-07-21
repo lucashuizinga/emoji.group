@@ -13,8 +13,11 @@
     "review": "node server/review.js",
     "build": "node scripts/compile.js",
     "check": "node scripts/verify.js",
-    "pipeline": "npm run ingest && npm run expand && npm run tag:programmatic && npm run build && npm run check",
-    "site": "node site/build-site.js"
+    "pipeline": "npm run ingest && npm run expand && npm run tag:programmatic && npm run tag:color && npm run build && npm run check",
+    "site": "node site/build-site.js",
+    "serve": "node site/serve.js",
+    "seed:llm": "node scripts/seed-llm.js",
+    "release": "npm run pipeline && npm run site"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.112.4",

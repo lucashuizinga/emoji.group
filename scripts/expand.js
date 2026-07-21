@@ -61,10 +61,16 @@ function genderOf(hexcode) {
   return { gender: null, confidence: 0 };
 }
 
-// Resolve the gender neutral hexcode for a gendered emoji, or null when none.
-function neutralHex(hexcode) {
+// Resolve candidate gender neutral hexcodes for a gendered emoji. Returns a
+// list because FE0F presentation selectors differ between the variant and its
+// base in emojibase (e.g. 26F9-FE0F-200D-2640-FE0F vs base 26F9), so we try
+// the exact strip plus the with and without FE0F spellings.
+function neutralHexCandidates(hexcode) {
   const stripped = hexcode.replace(/-200D-264[02]-FE0F/g, "");
-  if (stripped !== hexcode) return stripped; // gender sign form, e.g. runner
+  if (stripped !== hexcode) {
+    // gender sign form, e.g. runner
+    return [stripped, stripped.replace(/-FE0F$/, ""), `${stripped}-FE0F`];
+  }
   let changed = false;
   const swapped = hexcode
     .split("-")
@@ -76,7 +82,7 @@ function neutralHex(hexcode) {
       return p;
     })
     .join("-");
-  return changed ? swapped : null;
+  return changed ? [swapped] : [];
 }
 
 // A number tone stays a number. A uniform array collapses to one number.
@@ -138,10 +144,15 @@ const charByHex = new Map(records.map((r) => [r._hexcode, r.char]));
 for (const r of records) {
   if (r.base !== null) continue; // skin variants already carry a base
   if (r.gender !== "male" && r.gender !== "female") continue;
-  const nHex = neutralHex(r._hexcode);
-  if (!nHex) continue;
-  const neutralChar = charByHex.get(nHex);
-  if (!neutralChar || neutralChar === r.char) continue;
+  let neutralChar = null;
+  for (const nHex of neutralHexCandidates(r._hexcode)) {
+    const hit = charByHex.get(nHex);
+    if (hit && hit !== r.char) {
+      neutralChar = hit;
+      break;
+    }
+  }
+  if (!neutralChar) continue;
   r.base = neutralChar;
   const neutral = byChar.get(neutralChar);
   if (neutral && neutral.gender === null) {

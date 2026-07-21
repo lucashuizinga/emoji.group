@@ -60,10 +60,11 @@ const emojiSchema = {
 
 const collectionSchema = {
   type: "object",
-  required: ["slug", "title", "facet", "mode", "emojis", "count", "version"],
+  required: ["slug", "tag", "title", "facet", "mode", "emojis", "count", "version"],
   additionalProperties: false,
   properties: {
     slug: { type: "string", pattern: "^[a-z0-9-]+$" },
+    tag: { type: "string", minLength: 1 },
     title: { type: "string", minLength: 1 },
     facet: { type: "string", minLength: 1 },
     mode: { enum: ["include", "exclude"] },

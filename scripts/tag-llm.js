@@ -147,17 +147,25 @@ async function run() {
   }
 
   loadEnv();
-  const apiKey = process.env.ANTHROPIC_API_KEY;
   const model = process.env.ANTHROPIC_MODEL || "claude-opus-4-8";
-  if (!apiKey) {
+
+  // Zero-arg client: the SDK resolves ANTHROPIC_API_KEY (including from .env
+  // loaded above), ANTHROPIC_AUTH_TOKEN, or an `ant auth login` profile.
+  const { default: Anthropic } = await import("@anthropic-ai/sdk");
+  let client;
+  try {
+    client = new Anthropic();
+  } catch {
+    client = null;
+  }
+  if (!client) {
     log("");
-    log("  ANTHROPIC_API_KEY is not set. Copy .env.example to .env and add your key,");
-    log("  or run with --dry-run to exercise the harness without calling the API.");
+    log("  No Anthropic credentials found. Either:");
+    log("    copy .env.example to .env and set ANTHROPIC_API_KEY, or");
+    log("    run `ant auth login` so the SDK picks up your profile, or");
+    log("    run with --dry-run to exercise the harness without the API.");
     process.exit(1);
   }
-
-  const { default: Anthropic } = await import("@anthropic-ai/sdk");
-  const client = new Anthropic({ apiKey });
 
   const stats = { tagged: 0, empty: 0, failedBatches: 0, requests: 0 };
 
@@ -176,7 +184,13 @@ async function run() {
       .join("");
   }
 
-  for (let b = 0; b < batches.length; b += 1) {
+  // Process batches with a small worker pool. Results are applied to the
+  // store as they arrive; the final write sorts keys so output order stays
+  // deterministic regardless of completion order.
+  const CONCURRENCY = 4;
+  let cursor = 0;
+  let done = 0;
+  async function processBatch(b) {
     const batch = batches[b];
     const chars = batch.map((r) => r.char);
     let result = null;
@@ -199,7 +213,7 @@ async function run() {
     if (!result) {
       stats.failedBatches += 1;
       log(`  batch ${b + 1} failed twice, leaving its emojis for a later run`);
-      continue;
+      return;
     }
 
     for (const r of batch) {
@@ -213,8 +227,16 @@ async function run() {
         stats.empty += 1;
       }
     }
-    log(`  batch ${b + 1}/${batches.length} done`);
+    done += 1;
+    log(`  batch ${b + 1} done (${done}/${batches.length})`);
   }
+  async function worker() {
+    while (cursor < batches.length) {
+      const b = cursor++;
+      await processBatch(b);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(CONCURRENCY, batches.length) }, worker));
 
   writeCharKeyedJSON(storePath, store);
   writeJSON(progressPath, { model, chars: [...processed].sort() });

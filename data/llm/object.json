@@ -1,0 +1,2668 @@
+{
+  "⌚️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "⌨️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "☎️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "☕️": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "⚒️": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "⚔️": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "⚗️": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "⚽️": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "⚾️": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "⛏️": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "⛑️": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "⛳️": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "⛴️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "⛵️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "⛸️": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "✂️": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "✈️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🌭": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🌮": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🌯": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🌰": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🌶️": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🌽": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍄‍🟫": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🍅": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍆": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍇": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍈": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍉": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍊": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍋": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍋‍🟩": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍌": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍍": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍎": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍏": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍐": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍑": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍒": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍓": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍔": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🍕": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🍖": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍗": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍘": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍙": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍚": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍛": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍜": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍝": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍞": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍟": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🍠": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍡": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍢": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍣": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍤": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍥": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🍦": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍧": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍨": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍩": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍪": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍫": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍬": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍭": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍮": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍯": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍰": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍱": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍲": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍳": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍵": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍶": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍷": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🍸️": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🍹": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍺": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🍻": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🍼": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🍾": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍿": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎂": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎒": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎙️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🎚️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎛️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎞️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎣": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🎥": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎩": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🎮️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎱": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎳": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🎷": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎸": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎹": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎺": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎻": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎽": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🎾": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎿": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏀": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🏈": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🏉": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏍️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏎️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏏": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏐": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏑": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏒": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏓": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏸": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏹": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    },
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "👑": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "👒": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "👓️": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "👔": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "👕": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "👖": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "👗": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "👘": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "👙": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "👚": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "👞": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "👟": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "👠": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "👡": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "👢": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💡": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "💣️": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "💻️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "💽": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💾": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💿️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "📀": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "📏": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "📐": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "📞": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "📟️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📠": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "📡": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📯": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📱": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "📲": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📷️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📸": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📹️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📺️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📻️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "📼": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "📽️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🔋": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🔌": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🔍️": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🔎": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🔦": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🔧": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🔨": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🔩": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🔪": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 0.65,
+      "source": "llm"
+    },
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🔫": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🔬": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🔭": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🔱": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🕶️": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🕹️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🖥️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🖨️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🖱️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🖲️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🗜️": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🗡️": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 1,
+      "source": "llm"
+    }
+  ],
+  "🚀": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚁": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚂": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚃": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚄": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚅": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚆": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚇️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚈": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚊": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚋": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚌": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🚍️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚎": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚐": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚑️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚒": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚓": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚔️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚕": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚖": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚗": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🚘️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚙": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚚": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚛": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚜": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚝": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚞": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🚟": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🚠": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🚡": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🚢": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚤": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚲️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🛜": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛠️": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🛡️": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🛥️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛩️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛫": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛬": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛰️": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🛳️": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛴": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛵": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛶": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🛷": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🛸": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🛹": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛺": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🛻": [
+    {
+      "tag": "vehicle",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛼": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🤖": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🤿": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥁": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🥂": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥃": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥅": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥊": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥋": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥌": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥍": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥎": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥏": [
+    {
+      "tag": "sport-equipment",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥐": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥑": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥒": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥓": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥔": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥕": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥖": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥗": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥘": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥙": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥚": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥛": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥜": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥝": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥞": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥟": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥠": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥡": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🥤": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥥": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥦": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥧": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥨": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥩": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥪": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥫": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥬": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥭": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥮": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥯": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥻": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥼": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥽": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🥾": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥿": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦺": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🧀": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧁": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧂": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧃": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🧄": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🧅": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🧆": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🧇": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧈": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🧉": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧋": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧢": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧣": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧤": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧥": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧦": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🧮": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🧯": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🧰": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧹": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧽": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🩰": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🩱": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🩲": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🩳": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🩴": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪇": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🪈": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🪉": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🪏": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🪒": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪓": [
+    {
+      "tag": "weapon",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    },
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪕": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🪖": [
+    {
+      "tag": "clothing",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪗": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🪘": [
+    {
+      "tag": "instrument",
+      "facet": "object",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🪚": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🪛": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🪜": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪝": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪠": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪡": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪣": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🪤": [
+    {
+      "tag": "tool",
+      "facet": "object",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪫": [
+    {
+      "tag": "tech",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🫐": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🫑": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🫒": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🫓": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🫔": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🫕": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🫖": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫗": [
+    {
+      "tag": "drink",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🫘": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🫚": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫛": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫜": [
+    {
+      "tag": "food",
+      "facet": "object",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ]
+}

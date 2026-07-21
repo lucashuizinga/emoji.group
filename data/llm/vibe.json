@@ -1,0 +1,1714 @@
+{
+  "☁️": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "☃️": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "☎️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "☕️": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "☠️": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⚡️": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "⚰️": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⚱️": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "⛄️": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "⛓️": [
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "⛲️": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "✨️": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    },
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "❣️": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "❤️": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🌀": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌅": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌊": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌑": [
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🌙": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌚": [
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌤️": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌧️": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌪️": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🌫️": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌷": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🌸": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🌹": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🌻": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌿": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🍃": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🍒": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🍞": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🍪": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🍲": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🍵": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    },
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🍷": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🍻": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🍾": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎀": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    },
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎁": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🎂": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎃": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎄": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎅": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🎆": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🎇": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎈": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🎉": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎊": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎋": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎍": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎏": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎐": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🎙️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎞️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🎟️": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎢": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎫": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎰": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🏚️": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🏡": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🏩": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🏴‍☠️": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐇": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐈‍⬛": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐚": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐣": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🐤": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐥": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🐧": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐨": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🐬": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🐭": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐰": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🐱": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🐳": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🐶": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🐷": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐹": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🐺": [
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🐻": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐼": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🐾": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐿️": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👨‍❤️‍👨": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👨‍❤️‍💋‍👨": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👩‍❤️‍👨": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👩‍❤️‍👩": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👩‍❤️‍💋‍👨": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👩‍❤️‍💋‍👩": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👶": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👹": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "👺": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "👻": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "💀": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    },
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "💄": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "💆": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "💋": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💌": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💍": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💏": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💐": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "💑": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💒": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💓": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💔": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "💕": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💖": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💗": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💘": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💝": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💞": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💟": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "💥": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💫": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "💾": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💿️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📖": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📞": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📟️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📠": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "📷️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📺️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "📻️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "📼": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "📽️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🔥": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🔮": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🕊️": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🕎": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🕯️": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    },
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🕰️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🕳️": [
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🕷️": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🕸️": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🕹️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🖤": [
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🖲️": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "😈": [
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "😌": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "😍": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "😘": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "😱": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "😵‍💫": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "😻": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🙃": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🚨": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🛀": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🛁": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🛋️": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🛏️": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🛼": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🤍": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🤡": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🤪": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🤯": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🤶": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥀": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    },
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🥂": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥛": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🥧": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🥮": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🥰": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥳": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥴": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🥷": [
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🥺": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦄": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦇": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    },
+    {
+      "tag": "dark",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🦉": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🦊": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦋": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦔": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦝": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🦢": [
+    {
+      "tag": "romantic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🦥": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦦": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦭": [
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧌": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🧑‍🎄": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🧖": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧘": [
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧙": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧛": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧟": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧣": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧤": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🧦": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧧": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧨": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧮": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧶": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧸": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    },
+    {
+      "tag": "cute",
+      "facet": "vibe",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🩰": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🩸": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪅": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪔": [
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪞": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪦": [
+    {
+      "tag": "spooky",
+      "facet": "vibe",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪩": [
+    {
+      "tag": "retro",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    },
+    {
+      "tag": "festive",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪷": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.7,
+      "source": "llm"
+    },
+    {
+      "tag": "calm",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫖": [
+    {
+      "tag": "cozy",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫧": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫨": [
+    {
+      "tag": "chaotic",
+      "facet": "vibe",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫶": [
+    {
+      "tag": "aesthetic",
+      "facet": "vibe",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ]
+}

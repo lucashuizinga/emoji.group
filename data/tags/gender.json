@@ -15,6 +15,14 @@
       "source": "programmatic"
     }
   ],
+  "⛹️": [
+    {
+      "tag": "neutral",
+      "facet": "gender",
+      "confidence": 0.9,
+      "source": "programmatic"
+    }
+  ],
   "⛹️‍♀️": [
     {
       "tag": "female",
@@ -535,6 +543,14 @@
       "source": "programmatic"
     }
   ],
+  "🏋️": [
+    {
+      "tag": "neutral",
+      "facet": "gender",
+      "confidence": 0.9,
+      "source": "programmatic"
+    }
+  ],
   "🏋️‍♀️": [
     {
       "tag": "female",
@@ -628,6 +644,14 @@
       "tag": "male",
       "facet": "gender",
       "confidence": 1,
+      "source": "programmatic"
+    }
+  ],
+  "🏌️": [
+    {
+      "tag": "neutral",
+      "facet": "gender",
+      "confidence": 0.9,
       "source": "programmatic"
     }
   ],
@@ -5796,6 +5820,14 @@
       "tag": "male",
       "facet": "gender",
       "confidence": 1,
+      "source": "programmatic"
+    }
+  ],
+  "🕵️": [
+    {
+      "tag": "neutral",
+      "facet": "gender",
+      "confidence": 0.9,
       "source": "programmatic"
     }
   ],

@@ -1,0 +1,3372 @@
+{
+  "☀️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "☁️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "☄️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "☘️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "♟️": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⚒️": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⚕️": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "⚡️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "⚽️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "⚾️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "⛅️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "⛈️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⛏️": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "⛑️": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "⛰️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "⛱️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "⛳️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⛴️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "⛷️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "⛸️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⛹️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⛺️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "⛽️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "✈️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "✏️": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "❄️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "⭐️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🀄️": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🃏": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🌀": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌈": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🌊": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🌋": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🌌": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🌍️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🌎️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🌏️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🌑": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌕️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🌙": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🌟": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌠": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🌡️": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🌤️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🌥️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🌦️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🌧️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🌨️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🌩️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🌪️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🌫️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🌬️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🌱": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🌲": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🌳": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🌴": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🌵": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🌷": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🌸": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🌹": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🌺": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🌻": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🌼": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🌾": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🌿": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🍀": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🍁": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🍂": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🍃": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🍄": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎒": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎓️": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎙️": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎚️": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎛️": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎡": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎢": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎣": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎤": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎧️": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎮️": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎯": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🎰": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎱": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🎲": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🎳": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🎴": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🎵": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎶": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🎷": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎸": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎹": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎺": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎻": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎼": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎽": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🎾": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🎿": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏀": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🏂️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏃": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🏃‍➡️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🏄️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏅": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏆️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏇": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🏈": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏉": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏊️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏋️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏌️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🏏": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🏐": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏑": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🏒": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏓": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏔️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🏕️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🏖️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏗️": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🏜️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🏝️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    },
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🏞️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏟️": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🏢": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏥": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🏦": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🏧": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏨": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏫": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🏭️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🏯": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🏰": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🏵️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🏷️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🏸": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🏹": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🐀": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🐂": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐃": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐄": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐅": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐆": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐇": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐊": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐋": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐌": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐍": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐎": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐏": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐐": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐑": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐒": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐓": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐖": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐗": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐘": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐙": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐚": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐛": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐜": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐝": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐞": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐟️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐠": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐡": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐢": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐦‍⬛": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐦️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐧": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐪": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐫": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐬": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐳": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐸": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🐺": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🐻": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐻‍❄️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐼": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🐾": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🐿️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "👷": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "👾": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "💉": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💊": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💐": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "💧": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "💰️": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "💱": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💲": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💳️": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💴": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💵": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💶": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💷": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💸": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💹": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "💼": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "💿️": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📁": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "📂": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "📃": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📄": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📅": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "📆": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "📇": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "📈": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "📉": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "📊": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📋️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "📌": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📎": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "📏": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📐": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📑": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📒": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📓": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "📔": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📕": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📖": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "📗": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📘": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📙": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📚️": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "📝": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    },
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📠": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "📤️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    },
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📥️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    },
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📦️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "📨": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📩": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📪️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📫️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📬️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "📭️": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📮": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "📯": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "📻️": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🔧": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🔨": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🔬": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🔭": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🕊️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🕷️": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🕹️": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🖇️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🖊️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🖋️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🖍️": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🖥️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🖨️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🗂️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🗃️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🗄️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🗑️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🗒️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🗓️": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🗜️": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🗺️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🗻": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🗼": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🗽": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "😷": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🚂": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🚄": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🚅": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🚆": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🚉": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🚑️": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🚚": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚛": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚜": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🚞": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🚠": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🚡": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🚢": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🚧": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🚴": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🚵": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🛂": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛃": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🛄": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛅": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🛎️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🛠️": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🛣️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🛤️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🛫": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🛬": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🛳️": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🛹": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🛻": [
+    {
+      "tag": "logistics",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🛼": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🤑": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🤒": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🤕": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🤸": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🤺": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🤼": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🤽": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🤾": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🤿": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🥀": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🥁": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🥅": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥇": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥈": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥉": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥊": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🥋": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥌": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🥍": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥎": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🥏": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦀": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦁": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦂": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦃": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦅": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦆": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦇": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦈": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦉": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦊": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦋": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦌": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦍": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦎": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦏": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦐": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦑": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦒": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦓": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦔": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦗": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦘": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦙": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦚": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦛": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦜": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦝": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦞": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦟": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦡": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦢": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦥": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦦": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦧": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦨": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦩": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦪": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🦫": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦬": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦭": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🦯": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🦷": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🦺": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🦼": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🦽": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🧑‍⚕️": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🧑‍🎓": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🧑‍🎤": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🧑‍🏫": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🧑‍💼": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧗": [
+    {
+      "tag": "sports",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🧠": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🧩": [
+    {
+      "tag": "gaming",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🧬": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🧭": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🧮": [
+    {
+      "tag": "education",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🧱": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🧳": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🧾": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🩸": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🩹": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🩺": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.95,
+      "source": "llm"
+    }
+  ],
+  "🩻": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🩼": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪂": [
+    {
+      "tag": "travel",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪇": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪈": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪉": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪏": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪐": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪕": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🪗": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🪘": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🪙": [
+    {
+      "tag": "finance",
+      "facet": "domain",
+      "confidence": 0.9,
+      "source": "llm"
+    }
+  ],
+  "🪚": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.85,
+      "source": "llm"
+    }
+  ],
+  "🪛": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🪜": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🪨": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪩": [
+    {
+      "tag": "music",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🪪": [
+    {
+      "tag": "office",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪰": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪱": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪲": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🪳": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🪴": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🪵": [
+    {
+      "tag": "construction",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    },
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪶": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🪷": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪸": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🪹": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪺": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.65,
+      "source": "llm"
+    }
+  ],
+  "🪻": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.8,
+      "source": "llm"
+    }
+  ],
+  "🪼": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🪾": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.6,
+      "source": "llm"
+    }
+  ],
+  "🪿": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫀": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🫁": [
+    {
+      "tag": "healthcare",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ],
+  "🫎": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
+  "🫏": [
+    {
+      "tag": "nature",
+      "facet": "domain",
+      "confidence": 0.7,
+      "source": "llm"
+    }
+  ]
+}

@@ -3187,7 +3187,7 @@
     "unicode_version": "0.7",
     "base": null,
     "skin_tone": null,
-    "gender": null,
+    "gender": "neutral",
     "tags": [],
     "_hexcode": "26F9",
     "_keywords": [
@@ -3204,7 +3204,7 @@
     ],
     "_hasSkins": true,
     "_group": 1,
-    "_genderConfidence": 0
+    "_genderConfidence": 0.9
   },
   {
     "char": "⛹️‍♀️",
@@ -3218,7 +3218,7 @@
       65039
     ],
     "unicode_version": "4.0",
-    "base": null,
+    "base": "⛹️",
     "skin_tone": null,
     "gender": "female",
     "tags": [],
@@ -3251,7 +3251,7 @@
       65039
     ],
     "unicode_version": "4.0",
-    "base": null,
+    "base": "⛹️",
     "skin_tone": null,
     "gender": "male",
     "tags": [],
@@ -18685,7 +18685,7 @@
     "unicode_version": "0.7",
     "base": null,
     "skin_tone": null,
-    "gender": null,
+    "gender": "neutral",
     "tags": [],
     "_hexcode": "1F3CB",
     "_keywords": [
@@ -18703,7 +18703,7 @@
     ],
     "_hasSkins": true,
     "_group": 1,
-    "_genderConfidence": 0
+    "_genderConfidence": 0.9
   },
   {
     "char": "🏋️‍♀️",
@@ -18717,7 +18717,7 @@
       65039
     ],
     "unicode_version": "4.0",
-    "base": null,
+    "base": "🏋️",
     "skin_tone": null,
     "gender": "female",
     "tags": [],
@@ -18751,7 +18751,7 @@
       65039
     ],
     "unicode_version": "4.0",
-    "base": null,
+    "base": "🏋️",
     "skin_tone": null,
     "gender": "male",
     "tags": [],
@@ -19098,7 +19098,7 @@
     "unicode_version": "0.7",
     "base": null,
     "skin_tone": null,
-    "gender": null,
+    "gender": "neutral",
     "tags": [],
     "_hexcode": "1F3CC",
     "_keywords": [
@@ -19117,7 +19117,7 @@
     ],
     "_hasSkins": true,
     "_group": 1,
-    "_genderConfidence": 0
+    "_genderConfidence": 0.9
   },
   {
     "char": "🏌️‍♀️",
@@ -19131,7 +19131,7 @@
       65039
     ],
     "unicode_version": "4.0",
-    "base": null,
+    "base": "🏌️",
     "skin_tone": null,
     "gender": "female",
     "tags": [],
@@ -19166,7 +19166,7 @@
       65039
     ],
     "unicode_version": "4.0",
-    "base": null,
+    "base": "🏌️",
     "skin_tone": null,
     "gender": "male",
     "tags": [],
@@ -50312,7 +50312,7 @@
     "unicode_version": "0.7",
     "base": null,
     "skin_tone": null,
-    "gender": null,
+    "gender": "neutral",
     "tags": [],
     "_hexcode": "1F575",
     "_keywords": [
@@ -50321,7 +50321,7 @@
     ],
     "_hasSkins": true,
     "_group": 1,
-    "_genderConfidence": 0
+    "_genderConfidence": 0.9
   },
   {
     "char": "🕵️‍♀️",
@@ -50335,7 +50335,7 @@
       65039
     ],
     "unicode_version": "4.0",
-    "base": null,
+    "base": "🕵️",
     "skin_tone": null,
     "gender": "female",
     "tags": [],
@@ -50362,7 +50362,7 @@
       65039
     ],
     "unicode_version": "4.0",
-    "base": null,
+    "base": "🕵️",
     "skin_tone": null,
     "gender": "male",
     "tags": [],

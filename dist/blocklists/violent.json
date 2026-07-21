@@ -1,0 +1,11 @@
+{
+  "slug": "violent",
+  "title": "Violent",
+  "facet": "safety",
+  "mode": "exclude",
+  "emojis": [
+    "🗡️"
+  ],
+  "count": 1,
+  "version": "2026-07-21"
+}

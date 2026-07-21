@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>emoji.group review grid</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--accent:#E8940A;--bg:#FAF9F7;--ink:#1B1812;--muted:#6B6558;--faint:#A39D8E;--line:#E7E2D8;--card:#fff;--ok:#2F7A4D;--okbg:#EAF3EC;--warn:#96690B;--warnbg:#F7EEDA}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'Instrument Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:640px;margin:0 auto;padding:28px 24px 60px}
+  header{display:flex;align-items:center;gap:10px;margin-bottom:20px}
+  .logo{width:26px;height:26px;border-radius:7px;background:var(--accent);position:relative;flex:none}
+  .logo::before,.logo::after{content:"";position:absolute;width:4px;height:4px;border-radius:50%;background:var(--ink);top:9px}
+  .logo::before{left:7px}.logo::after{right:7px}
+  h1{font-size:16px;font-weight:700;letter-spacing:-0.01em;margin:0}
+  h1 span{font-weight:400;color:var(--faint)}
+  .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:18px;font-family:'JetBrains Mono',monospace;font-size:12px}
+  select,input[type=range]{font-family:inherit;font-size:12px}
+  select{border:1px solid var(--line);border-radius:6px;padding:4px 8px;background:var(--bg);color:var(--ink)}
+  label{color:var(--muted);display:flex;align-items:center;gap:7px}
+  .count{margin-left:auto;color:var(--faint)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:40px 32px;text-align:center;box-shadow:0 24px 60px -34px rgba(27,24,18,.18),0 2px 6px rgba(27,24,18,.04)}
+  .glyph{font-size:96px;line-height:1;margin:6px 0 4px}
+  .name{font-size:13px;color:var(--muted);font-family:'JetBrains Mono',monospace}
+  .tagrow{margin:26px 0 6px;display:flex;align-items:center;justify-content:center;gap:10px}
+  .facet{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--faint);text-transform:uppercase;letter-spacing:.08em}
+  .tag{font-size:26px;font-weight:650;letter-spacing:-0.02em}
+  .meter{height:8px;border-radius:99px;background:var(--line);max-width:240px;margin:14px auto 4px;overflow:hidden}
+  .meter > i{display:block;height:100%;background:var(--accent)}
+  .conf{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted)}
+  .safety{display:inline-block;margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:600;color:var(--warn);background:var(--warnbg);border-radius:5px;padding:3px 9px}
+  .btns{display:flex;gap:12px;justify-content:center;margin-top:30px}
+  button{font-family:'Instrument Sans',sans-serif;font-size:14px;font-weight:600;border-radius:9px;padding:11px 22px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+  button.approve{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  button.reject{background:var(--card)}
+  button:hover{filter:brightness(.97)}
+  .hint{text-align:center;margin-top:20px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--faint)}
+  kbd{background:var(--card);border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:1px 6px;font-family:inherit;font-size:11px}
+  .done{text-align:center;padding:60px 20px;color:var(--muted)}
+  .done .big{font-size:52px;margin-bottom:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo"></div>
+    <h1>emoji<span>.group</span> &nbsp;review grid</h1>
+  </header>
+
+  <div class="controls">
+    <label>facet
+      <select id="facet"><option value="all">all</option></select>
+    </label>
+    <label>below
+      <input id="threshold" type="range" min="0" max="1" step="0.05" value="0.8">
+      <span id="threshVal" class="conf">0.80</span>
+    </label>
+    <span id="count" class="count"></span>
+  </div>
+
+  <div id="stage"></div>
+
+  <div class="hint">
+    <kbd>y</kbd> approve &nbsp; <kbd>n</kbd> reject &nbsp; <kbd>&larr;</kbd> <kbd>&rarr;</kbd> navigate &nbsp; <kbd>u</kbd> undo
+  </div>
+</div>
+
+<script>
+const stage = document.getElementById('stage');
+const facetSel = document.getElementById('facet');
+const threshold = document.getElementById('threshold');
+const threshVal = document.getElementById('threshVal');
+const countEl = document.getElementById('count');
+let queue = [];
+let idx = 0;
+let facetsSeen = false;
+
+async function load() {
+  const res = await fetch(`/api/queue?facet=${facetSel.value}&threshold=${threshold.value}`);
+  const data = await res.json();
+  queue = data.items;
+  idx = 0;
+  if (!facetsSeen && data.facets.length) {
+    for (const f of data.facets) {
+      const o = document.createElement('option');
+      o.value = f; o.textContent = f;
+      facetSel.appendChild(o);
+    }
+    facetsSeen = true;
+  }
+  render();
+}
+
+function render() {
+  countEl.textContent = queue.length ? `${Math.min(idx + 1, queue.length)} / ${queue.length}` : '0 / 0';
+  if (!queue.length || idx >= queue.length) {
+    stage.innerHTML = `<div class="done"><div class="big">🫶</div><div>Queue clear for this filter. Nice work.<br>Run <code>npm run build</code> to fold decisions into /dist.</div></div>`;
+    return;
+  }
+  const it = queue[idx];
+  const pct = Math.round(it.confidence * 100);
+  stage.innerHTML = `
+    <div class="card">
+      <div class="glyph">${it.char}</div>
+      <div class="name">${it.name}</div>
+      <div class="tagrow"><span class="facet">${it.facet}</span><span class="tag">${it.tag}</span></div>
+      <div class="meter"><i style="width:${pct}%"></i></div>
+      <div class="conf">confidence ${it.confidence.toFixed(2)} &middot; source ${it.source}</div>
+      ${it.facet === 'safety' ? '<div class="safety">SAFETY &middot; must be reviewed to ship</div>' : ''}
+      <div class="btns">
+        <button class="reject" onclick="decide('reject')">Reject (n)</button>
+        <button class="approve" onclick="decide('approve')">Approve (y)</button>
+      </div>
+    </div>`;
+}
+
+async function decide(action) {
+  const it = queue[idx];
+  if (!it) return;
+  await fetch('/api/decision', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ char: it.char, facet: it.facet, tag: it.tag, action }),
+  });
+  idx += 1;
+  render();
+}
+
+async function undo() {
+  if (idx === 0) return;
+  idx -= 1;
+  const it = queue[idx];
+  await fetch('/api/decision', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ char: it.char, facet: it.facet, tag: it.tag, action: 'clear' }),
+  });
+  render();
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'y') decide('approve');
+  else if (e.key === 'n') decide('reject');
+  else if (e.key === 'ArrowRight') { if (idx < queue.length) { idx++; render(); } }
+  else if (e.key === 'ArrowLeft') { if (idx > 0) { idx--; render(); } }
+  else if (e.key === 'u') undo();
+});
+
+facetSel.addEventListener('change', load);
+threshold.addEventListener('input', () => { threshVal.textContent = Number(threshold.value).toFixed(2); });
+threshold.addEventListener('change', load);
+load();
+</script>
+</body>
+</html>

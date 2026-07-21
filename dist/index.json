@@ -1,0 +1,18 @@
+{
+  "name": "emoji.group",
+  "version": "2026-07-21",
+  "emojis": 3816,
+  "collections": 21,
+  "blocklists": 0,
+  "facets": [
+    "audience",
+    "color",
+    "gender",
+    "skin-tone"
+  ],
+  "files": {
+    "emojis": "/emojis.json",
+    "collections": "/collections/index.json",
+    "blocklists": "/blocklists/index.json"
+  }
+}

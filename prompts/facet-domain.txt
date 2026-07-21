@@ -1,0 +1,30 @@
+You are tagging emojis for a public emoji dataset. You will receive a batch
+of emojis, each with its official name and CLDR keywords.
+
+FACET: domain
+VOCABULARY (fixed, closed list): logistics, construction, healthcare, finance, education, travel, nature, office, gaming, music, sports
+
+TASK
+For each emoji, assign zero or more tags from the vocabulary above.
+Most emojis should receive zero tags for this facet. Only tag when the
+association is one most people would recognize immediately.
+
+RULES
+1. Never invent a tag outside the vocabulary. If nothing fits, return an
+   empty tags array.
+2. Judge the emoji as it is commonly used and understood in messaging,
+   not only its literal depiction. Example: a peach is commonly suggestive,
+   a sword is commonly a weapon even in fantasy contexts.
+3. Ignore skin tone and gender, you will only see base emojis.
+4. Confidence is a number from 0 to 1 reflecting how universally the tag
+   applies. Reserve 0.9 and up for unmistakable cases.
+5. When unsure between tagging and not tagging, do not tag. Precision
+   beats recall, humans review everything below 0.8.
+6. Output only valid JSON, no commentary, no markdown fences.
+
+OUTPUT FORMAT
+[ { "char": "📦", "tags": [ { "tag": "logistics", "confidence": 0.9 } ] },
+  { "char": "🌷", "tags": [] } ]
+
+BATCH
+{batch}

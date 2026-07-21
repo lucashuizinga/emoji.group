@@ -1,0 +1,174 @@
+{
+  "version": "2026-07-21",
+  "count": 21,
+  "collections": [
+    {
+      "slug": "black",
+      "title": "Black",
+      "facet": "color",
+      "mode": "include",
+      "count": 81,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "blue",
+      "title": "Blue",
+      "facet": "color",
+      "mode": "include",
+      "count": 532,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "brown",
+      "title": "Brown",
+      "facet": "color",
+      "mode": "include",
+      "count": 46,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "female",
+      "title": "Female",
+      "facet": "gender",
+      "mode": "include",
+      "count": 565,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "gray",
+      "title": "Gray",
+      "facet": "color",
+      "mode": "include",
+      "count": 57,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "green",
+      "title": "Green",
+      "facet": "color",
+      "mode": "include",
+      "count": 97,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "kid-safe",
+      "title": "Kid Safe",
+      "facet": "audience",
+      "mode": "include",
+      "count": 3816,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "male",
+      "title": "Male",
+      "facet": "gender",
+      "mode": "include",
+      "count": 565,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "neutral",
+      "title": "Neutral",
+      "facet": "gender",
+      "mode": "include",
+      "count": 306,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "orange",
+      "title": "Orange",
+      "facet": "color",
+      "mode": "include",
+      "count": 191,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "pink",
+      "title": "Pink",
+      "facet": "color",
+      "mode": "include",
+      "count": 40,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "purple",
+      "title": "Purple",
+      "facet": "color",
+      "mode": "include",
+      "count": 57,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "red",
+      "title": "Red",
+      "facet": "color",
+      "mode": "include",
+      "count": 178,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "skin-tone-1",
+      "title": "Skin Tone 1",
+      "facet": "skin-tone",
+      "mode": "include",
+      "count": 323,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "skin-tone-2",
+      "title": "Skin Tone 2",
+      "facet": "skin-tone",
+      "mode": "include",
+      "count": 323,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "skin-tone-3",
+      "title": "Skin Tone 3",
+      "facet": "skin-tone",
+      "mode": "include",
+      "count": 323,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "skin-tone-4",
+      "title": "Skin Tone 4",
+      "facet": "skin-tone",
+      "mode": "include",
+      "count": 323,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "skin-tone-5",
+      "title": "Skin Tone 5",
+      "facet": "skin-tone",
+      "mode": "include",
+      "count": 323,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "skin-tone-default",
+      "title": "Skin Tone Default",
+      "facet": "skin-tone",
+      "mode": "include",
+      "count": 323,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "white",
+      "title": "White",
+      "facet": "color",
+      "mode": "include",
+      "count": 36,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "yellow",
+      "title": "Yellow",
+      "facet": "color",
+      "mode": "include",
+      "count": 278,
+      "version": "2026-07-21"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "substances",
+  "tag": "substances",
+  "title": "Substances",
+  "facet": "safety",
+  "mode": "include",
+  "emojis": [
+    "🍶",
+    "🍷",
+    "🍸️",
+    "🍹",
+    "🍺",
+    "🍻",
+    "🍾",
+    "💊",
+    "🚬",
+    "🥂",
+    "🥃"
+  ],
+  "count": 11,
+  "version": "2026-07-21"
+}

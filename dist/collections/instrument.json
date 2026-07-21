@@ -1,0 +1,24 @@
+{
+  "slug": "instrument",
+  "tag": "instrument",
+  "title": "Instrument",
+  "facet": "object",
+  "mode": "include",
+  "emojis": [
+    "🎷",
+    "🎸",
+    "🎹",
+    "🎺",
+    "🎻",
+    "📯",
+    "🥁",
+    "🪇",
+    "🪈",
+    "🪉",
+    "🪕",
+    "🪗",
+    "🪘"
+  ],
+  "count": 13,
+  "version": "2026-07-21"
+}

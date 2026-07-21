@@ -1,5 +1,42 @@
 {
   "version": "2026-07-21",
-  "count": 0,
-  "blocklists": []
+  "count": 4,
+  "blocklists": [
+    {
+      "slug": "gambling",
+      "tag": "gambling",
+      "title": "Gambling",
+      "facet": "safety",
+      "mode": "exclude",
+      "count": 3,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "substances",
+      "tag": "substances",
+      "title": "Substances",
+      "facet": "safety",
+      "mode": "exclude",
+      "count": 11,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "suggestive",
+      "tag": "suggestive",
+      "title": "Suggestive",
+      "facet": "safety",
+      "mode": "exclude",
+      "count": 8,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "violent",
+      "tag": "violent",
+      "title": "Violent",
+      "facet": "safety",
+      "mode": "exclude",
+      "count": 9,
+      "version": "2026-07-21"
+    }
+  ]
 }

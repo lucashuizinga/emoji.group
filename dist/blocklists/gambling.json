@@ -1,0 +1,14 @@
+{
+  "slug": "gambling",
+  "tag": "gambling",
+  "title": "Gambling",
+  "facet": "safety",
+  "mode": "exclude",
+  "emojis": [
+    "🃏",
+    "🎰",
+    "🎲"
+  ],
+  "count": 3,
+  "version": "2026-07-21"
+}

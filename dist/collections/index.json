@@ -1,9 +1,19 @@
 {
   "version": "2026-07-21",
-  "count": 21,
+  "count": 55,
   "collections": [
     {
+      "slug": "aesthetic",
+      "tag": "aesthetic",
+      "title": "Aesthetic",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 23,
+      "version": "2026-07-21"
+    },
+    {
       "slug": "black",
+      "tag": "black",
       "title": "Black",
       "facet": "color",
       "mode": "include",
@@ -12,14 +22,16 @@
     },
     {
       "slug": "blue",
+      "tag": "blue",
       "title": "Blue",
       "facet": "color",
       "mode": "include",
-      "count": 532,
+      "count": 531,
       "version": "2026-07-21"
     },
     {
       "slug": "brown",
+      "tag": "brown",
       "title": "Brown",
       "facet": "color",
       "mode": "include",
@@ -27,7 +39,89 @@
       "version": "2026-07-21"
     },
     {
+      "slug": "calm",
+      "tag": "calm",
+      "title": "Calm",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 71,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "chaotic",
+      "tag": "chaotic",
+      "title": "Chaotic",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 17,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "clothing",
+      "tag": "clothing",
+      "title": "Clothing",
+      "facet": "object",
+      "mode": "include",
+      "count": 37,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "construction",
+      "tag": "construction",
+      "title": "Construction",
+      "facet": "domain",
+      "mode": "include",
+      "count": 35,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "cozy",
+      "tag": "cozy",
+      "title": "Cozy",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 22,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "cute",
+      "tag": "cute",
+      "title": "Cute",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 33,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "dark",
+      "tag": "dark",
+      "title": "Dark",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 16,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "drink",
+      "tag": "drink",
+      "title": "Drink",
+      "facet": "object",
+      "mode": "include",
+      "count": 19,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "education",
+      "tag": "education",
+      "title": "Education",
+      "facet": "domain",
+      "mode": "include",
+      "count": 56,
+      "version": "2026-07-21"
+    },
+    {
       "slug": "female",
+      "tag": "female",
       "title": "Female",
       "facet": "gender",
       "mode": "include",
@@ -35,7 +129,53 @@
       "version": "2026-07-21"
     },
     {
+      "slug": "festive",
+      "tag": "festive",
+      "title": "Festive",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 45,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "finance",
+      "tag": "finance",
+      "title": "Finance",
+      "facet": "domain",
+      "mode": "include",
+      "count": 18,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "food",
+      "tag": "food",
+      "title": "Food",
+      "facet": "object",
+      "mode": "include",
+      "count": 103,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "gambling",
+      "tag": "gambling",
+      "title": "Gambling",
+      "facet": "safety",
+      "mode": "include",
+      "count": 3,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "gaming",
+      "tag": "gaming",
+      "title": "Gaming",
+      "facet": "domain",
+      "mode": "include",
+      "count": 12,
+      "version": "2026-07-21"
+    },
+    {
       "slug": "gray",
+      "tag": "gray",
       "title": "Gray",
       "facet": "color",
       "mode": "include",
@@ -44,6 +184,7 @@
     },
     {
       "slug": "green",
+      "tag": "green",
       "title": "Green",
       "facet": "color",
       "mode": "include",
@@ -51,15 +192,44 @@
       "version": "2026-07-21"
     },
     {
+      "slug": "healthcare",
+      "tag": "healthcare",
+      "title": "Healthcare",
+      "facet": "domain",
+      "mode": "include",
+      "count": 40,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "instrument",
+      "tag": "instrument",
+      "title": "Instrument",
+      "facet": "object",
+      "mode": "include",
+      "count": 13,
+      "version": "2026-07-21"
+    },
+    {
       "slug": "kid-safe",
+      "tag": "kid-safe",
       "title": "Kid Safe",
       "facet": "audience",
       "mode": "include",
-      "count": 3816,
+      "count": 3785,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "logistics",
+      "tag": "logistics",
+      "title": "Logistics",
+      "facet": "domain",
+      "mode": "include",
+      "count": 16,
       "version": "2026-07-21"
     },
     {
       "slug": "male",
+      "tag": "male",
       "title": "Male",
       "facet": "gender",
       "mode": "include",
@@ -67,23 +237,53 @@
       "version": "2026-07-21"
     },
     {
+      "slug": "music",
+      "tag": "music",
+      "title": "Music",
+      "facet": "domain",
+      "mode": "include",
+      "count": 42,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "nature",
+      "tag": "nature",
+      "title": "Nature",
+      "facet": "domain",
+      "mode": "include",
+      "count": 163,
+      "version": "2026-07-21"
+    },
+    {
       "slug": "neutral",
+      "tag": "neutral",
       "title": "Neutral",
       "facet": "gender",
       "mode": "include",
-      "count": 306,
+      "count": 310,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "office",
+      "tag": "office",
+      "title": "Office",
+      "facet": "domain",
+      "mode": "include",
+      "count": 48,
       "version": "2026-07-21"
     },
     {
       "slug": "orange",
+      "tag": "orange",
       "title": "Orange",
       "facet": "color",
       "mode": "include",
-      "count": 191,
+      "count": 195,
       "version": "2026-07-21"
     },
     {
       "slug": "pink",
+      "tag": "pink",
       "title": "Pink",
       "facet": "color",
       "mode": "include",
@@ -92,6 +292,7 @@
     },
     {
       "slug": "purple",
+      "tag": "purple",
       "title": "Purple",
       "facet": "color",
       "mode": "include",
@@ -100,6 +301,7 @@
     },
     {
       "slug": "red",
+      "tag": "red",
       "title": "Red",
       "facet": "color",
       "mode": "include",
@@ -107,7 +309,26 @@
       "version": "2026-07-21"
     },
     {
+      "slug": "retro",
+      "tag": "retro",
+      "title": "Retro",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 20,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "romantic",
+      "tag": "romantic",
+      "title": "Romantic",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 232,
+      "version": "2026-07-21"
+    },
+    {
       "slug": "skin-tone-1",
+      "tag": "skin-tone-1",
       "title": "Skin Tone 1",
       "facet": "skin-tone",
       "mode": "include",
@@ -116,6 +337,7 @@
     },
     {
       "slug": "skin-tone-2",
+      "tag": "skin-tone-2",
       "title": "Skin Tone 2",
       "facet": "skin-tone",
       "mode": "include",
@@ -124,6 +346,7 @@
     },
     {
       "slug": "skin-tone-3",
+      "tag": "skin-tone-3",
       "title": "Skin Tone 3",
       "facet": "skin-tone",
       "mode": "include",
@@ -132,6 +355,7 @@
     },
     {
       "slug": "skin-tone-4",
+      "tag": "skin-tone-4",
       "title": "Skin Tone 4",
       "facet": "skin-tone",
       "mode": "include",
@@ -140,6 +364,7 @@
     },
     {
       "slug": "skin-tone-5",
+      "tag": "skin-tone-5",
       "title": "Skin Tone 5",
       "facet": "skin-tone",
       "mode": "include",
@@ -148,6 +373,7 @@
     },
     {
       "slug": "skin-tone-default",
+      "tag": "skin-tone-default",
       "title": "Skin Tone Default",
       "facet": "skin-tone",
       "mode": "include",
@@ -155,7 +381,107 @@
       "version": "2026-07-21"
     },
     {
+      "slug": "spooky",
+      "tag": "spooky",
+      "title": "Spooky",
+      "facet": "vibe",
+      "mode": "include",
+      "count": 60,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "sport-equipment",
+      "tag": "sport-equipment",
+      "title": "Sport Equipment",
+      "facet": "object",
+      "mode": "include",
+      "count": 30,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "sports",
+      "tag": "sports",
+      "title": "Sports",
+      "facet": "domain",
+      "mode": "include",
+      "count": 286,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "substances",
+      "tag": "substances",
+      "title": "Substances",
+      "facet": "safety",
+      "mode": "include",
+      "count": 11,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "suggestive",
+      "tag": "suggestive",
+      "title": "Suggestive",
+      "facet": "safety",
+      "mode": "include",
+      "count": 8,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "tech",
+      "tag": "tech",
+      "title": "Tech",
+      "facet": "object",
+      "mode": "include",
+      "count": 41,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "tool",
+      "tag": "tool",
+      "title": "Tool",
+      "facet": "object",
+      "mode": "include",
+      "count": 31,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "travel",
+      "tag": "travel",
+      "title": "Travel",
+      "facet": "domain",
+      "mode": "include",
+      "count": 43,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "vehicle",
+      "tag": "vehicle",
+      "title": "Vehicle",
+      "facet": "object",
+      "mode": "include",
+      "count": 51,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "violent",
+      "tag": "violent",
+      "title": "Violent",
+      "facet": "safety",
+      "mode": "include",
+      "count": 9,
+      "version": "2026-07-21"
+    },
+    {
+      "slug": "weapon",
+      "tag": "weapon",
+      "title": "Weapon",
+      "facet": "object",
+      "mode": "include",
+      "count": 9,
+      "version": "2026-07-21"
+    },
+    {
       "slug": "white",
+      "tag": "white",
       "title": "White",
       "facet": "color",
       "mode": "include",
@@ -164,6 +490,7 @@
     },
     {
       "slug": "yellow",
+      "tag": "yellow",
       "title": "Yellow",
       "facet": "color",
       "mode": "include",

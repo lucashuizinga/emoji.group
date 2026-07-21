@@ -1,0 +1,23 @@
+{
+  "slug": "gaming",
+  "tag": "gaming",
+  "title": "Gaming",
+  "facet": "domain",
+  "mode": "include",
+  "emojis": [
+    "♟️",
+    "🀄️",
+    "🃏",
+    "🎮️",
+    "🎯",
+    "🎰",
+    "🎱",
+    "🎲",
+    "🎴",
+    "👾",
+    "🕹️",
+    "🧩"
+  ],
+  "count": 12,
+  "version": "2026-07-21"
+}

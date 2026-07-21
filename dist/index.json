@@ -2,13 +2,17 @@
   "name": "emoji.group",
   "version": "2026-07-21",
   "emojis": 3816,
-  "collections": 21,
-  "blocklists": 0,
+  "collections": 55,
+  "blocklists": 4,
   "facets": [
     "audience",
     "color",
+    "domain",
     "gender",
-    "skin-tone"
+    "object",
+    "safety",
+    "skin-tone",
+    "vibe"
   ],
   "files": {
     "emojis": "/emojis.json",

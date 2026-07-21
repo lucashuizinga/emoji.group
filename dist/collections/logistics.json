@@ -1,0 +1,27 @@
+{
+  "slug": "logistics",
+  "tag": "logistics",
+  "title": "Logistics",
+  "facet": "domain",
+  "mode": "include",
+  "emojis": [
+    "🏭️",
+    "🏷️",
+    "📤️",
+    "📥️",
+    "📦️",
+    "📨",
+    "📩",
+    "📪️",
+    "📫️",
+    "📬️",
+    "📭️",
+    "📮",
+    "🚚",
+    "🚛",
+    "🚢",
+    "🛻"
+  ],
+  "count": 16,
+  "version": "2026-07-21"
+}

@@ -73,7 +73,7 @@ chain; `npm run release` also rebuilds the site.
 | 5+7. Build | `npm run build` | Inheritance, review decisions, kid-safe derivation, collections and blocklists into `/dist`. Fails if any safety tag is still `source: "llm"`. |
 | 8. Verify | `npm run check` | JSON schema validation of `/dist`, duplicate and sort-order detection, coverage report. |
 | Site | `npm run site` | Render `/dist` into `site/public/`: landing page, one page per collection, client side search, sitemap, llms.txt, OG images. |
-| Preview | `npm run serve` | Local server with the production URL behaviour (clean URLs, content negotiation, 404). |
+| Preview | `npm run serve` | Local server with the production URL behaviour (clean URLs, JSON twins, 404). |
 
 ### Inheritance rules
 
@@ -97,18 +97,22 @@ a fresh decision.
 
 ## Serving
 
-`vercel.json` deploys `site/public` with clean URLs and content negotiation:
+`vercel.json` deploys `site/public` with clean URLs. Every collection lives at
+two URLs, one character pair apart:
 
 ```
 emoji.group/cozy                     the page, for people
 emoji.group/cozy.json                the data, for programs
-emoji.group/cozy  + Accept: json    rewritten to the data
 emoji.group/emojis.json              the full database
 emoji.group/collections/index.json   every collection with counts
 emoji.group/blocklists/violent.json  exclude mode blocklist
 ```
 
-JSON responses carry `access-control-allow-origin: *` and long cache headers.
+JSON responses carry `access-control-allow-origin: *`. Caching leans on the
+fact that Vercel purges its edge cache on every deployment: `s-maxage` is a
+full year (the CDN serves from edge until the next deploy), browser `max-age`
+stays short (10 minutes for pages, 1 hour for JSON, 1 day for assets), and
+`stale-while-revalidate` keeps responses instant while the edge refreshes.
 
 ## Versioning and reproducibility
 

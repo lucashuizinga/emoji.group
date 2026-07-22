@@ -343,12 +343,12 @@ function devSection(model) {
   <div class="negotiate reveal">
     <div class="negcol">
       <div class="neglabel">A person opens it</div>
-      <div class="negbody"><span class="negurl">emoji.group/cozy</span> → this page, with copy buttons</div>
+      <div class="negbody"><span class="negurl">emoji.group/cozy</span> → the page, with copy buttons</div>
     </div>
-    <div class="negmid">same URL</div>
+    <div class="negmid">add .json</div>
     <div class="negcol">
       <div class="neglabel">A program requests it</div>
-      <div class="negbody"><span class="negurl">Accept: application/json</span> → the raw collection</div>
+      <div class="negbody"><span class="negurl">emoji.group/cozy.json</span> → the raw collection</div>
     </div>
   </div>
   <div class="cards3">

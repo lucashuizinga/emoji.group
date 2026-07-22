@@ -1,8 +1,8 @@
 // Local preview server for the generated site.
 //   npm run serve   (override the port with PORT=...)
-// Mirrors the vercel.json behaviour: clean URLs (/blue serves blue.html) and
-// content negotiation (/blue with Accept: application/json serves blue.json),
-// so localhost behaves like production.
+// Mirrors the vercel.json behaviour: clean URLs (/blue serves blue.html,
+// /blue.json serves the data) and the custom 404, so localhost behaves like
+// production.
 
 import { createServer } from "node:http";
 import { readFileSync, existsSync, statSync } from "node:fs";
@@ -31,15 +31,7 @@ function serveFile(res, file, status = 200) {
 }
 
 const server = createServer((req, res) => {
-  let pathname = decodeURIComponent(req.url.split("?")[0]);
-  const accept = req.headers.accept || "";
-
-  // Content negotiation for a bare collection slug (matches vercel.json).
-  if (/^\/[a-z0-9-]+$/.test(pathname) && accept.includes("application/json")) {
-    const jsonTwin = `${OUT}${pathname}.json`;
-    if (existsSync(jsonTwin)) return serveFile(res, jsonTwin);
-  }
-
+  const pathname = decodeURIComponent(req.url.split("?")[0]);
   let file = `${OUT}${pathname}`;
   if (pathname.endsWith("/")) file = `${OUT}${pathname}index.html`;
   else if (existsSync(file) && statSync(file).isDirectory()) file = `${file}/index.html`;

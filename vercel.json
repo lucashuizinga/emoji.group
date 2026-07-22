@@ -4,13 +4,6 @@
   "outputDirectory": "site/public",
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/:slug([a-z0-9-]+)",
-      "has": [{ "type": "header", "key": "accept", "value": ".*application/json.*" }],
-      "destination": "/:slug.json"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)\\.json",

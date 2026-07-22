@@ -17,7 +17,8 @@
     "site": "node site/build-site.js",
     "serve": "node site/serve.js",
     "seed:llm": "node scripts/seed-llm.js",
-    "release": "npm run pipeline && npm run site"
+    "release": "npm run pipeline && npm run site",
+    "og": "node scripts/og-images.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.112.4",

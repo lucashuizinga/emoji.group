@@ -57,7 +57,12 @@ const LOGO = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 28 28
 
 const FAVICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><rect width="28" height="28" rx="8" fill="#E8940A"/><circle cx="9.5" cy="11.5" r="2" fill="#1B1812"/><circle cx="18.5" cy="11.5" r="2" fill="#1B1812"/><path d="M8.5 16.5c1.5 2.2 3.3 3.3 5.5 3.3s4-1.1 5.5-3.3" stroke="#1B1812" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>`;
 
-function head({ title, description, path }) {
+function head({ title, description, path, ogImage, ogAlt, jsonLd }) {
+  const image = ogImage || "/og.png";
+  const alt = ogAlt || "emoji.group, the emoji database grouped for developers";
+  const ld = jsonLd
+    ? `\n<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`
+    : "";
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,19 +71,26 @@ function head({ title, description, path }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${ORIGIN}${path}">
+<meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="emoji.group">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${ORIGIN}${path}">
-<meta property="og:image" content="${ORIGIN}/og.png">
+<meta property="og:image" content="${ORIGIN}${image}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(alt)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${ORIGIN}${image}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css?v=${ASSET_V.css}">
+<link rel="stylesheet" href="/style.css?v=${ASSET_V.css}">${ld}
 </head>
 <body>`;
 }
@@ -334,8 +346,36 @@ function buildLanding(model) {
   return (
     head({
       title: "emoji.group · the emoji database, grouped for developers",
-      description: "Stop hand-picking emoji lists. 79 ready-made collections covering all 3,816 emojis, human reviewed safety blocklists included. Static JSON on a CDN, no key, no SDK.",
+      description: `Stop hand-picking emoji lists. ${meta.collections} ready-made collections covering all ${num(meta.emojis)} emojis, human reviewed safety blocklists included. Static JSON on a CDN, no key, no SDK.`,
       path: "/",
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            name: "emoji.group",
+            url: ORIGIN,
+            description: "The emoji database, grouped for developers. Curated emoji collections as free static JSON.",
+          },
+          {
+            "@type": "Dataset",
+            name: "emoji.group emoji database",
+            description: `${num(meta.emojis)} emojis with curated tags across ${meta.collections} collections: vibe, theme, category, colour, safety blocklists, skin tone and gender variants as first class records.`,
+            url: ORIGIN,
+            license: "https://opensource.org/license/mit",
+            isAccessibleForFree: true,
+            creator: { "@type": "Organization", name: "emoji.group", url: ORIGIN },
+            version: meta.version,
+            distribution: [
+              {
+                "@type": "DataDownload",
+                encodingFormat: "application/json",
+                contentUrl: `${ORIGIN}/emojis.json`,
+              },
+            ],
+          },
+        ],
+      },
     }) +
     nav() +
     `
@@ -454,11 +494,35 @@ function buildCollection(model, col) {
 
   const fetchSnippet = `const ${tag.replace(/-/g, "_")} = await fetch("${ORIGIN}/${col.slug}.json")\n  .then(r => r.json()); // { emojis: [...], count: ${col.count} }`;
 
+  const ogImage = existsSync(`${ROOT}/site/assets/og/${col.slug}.png`)
+    ? `/og/${col.slug}.png`
+    : "/og.png";
+
   return (
     head({
       title: `${col.title} emojis · emoji.group`,
       description: `${col.count} ${col.title.toLowerCase()} emojis, ${col.facet} facet, curated by emoji.group. Static JSON at ${ORIGIN}/${col.slug}.json`,
       path: `/${col.slug}`,
+      ogImage,
+      ogAlt: `${col.title}: ${col.count} emojis on emoji.group`,
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        name: `${col.title} emojis`,
+        description: `The ${col.title.toLowerCase()} emoji collection: ${col.count} emojis, ${col.facet} facet, curated by emoji.group.`,
+        url: `${ORIGIN}/${col.slug}`,
+        license: "https://opensource.org/license/mit",
+        isAccessibleForFree: true,
+        version: col.version,
+        isPartOf: { "@type": "Dataset", name: "emoji.group emoji database", url: ORIGIN },
+        distribution: [
+          {
+            "@type": "DataDownload",
+            encodingFormat: "application/json",
+            contentUrl: `${ORIGIN}/${col.slug}.json`,
+          },
+        ],
+      },
     }) +
     nav() +
     `
@@ -750,10 +814,11 @@ function run() {
   writeFileSync(`${OUT}/404.html`, notFound(model));
   writeJSON(`${OUT}/search.json`, searchIndex(model));
 
-  // Static raster assets (og image, touch icon) generated once into site/assets.
+  // Static raster assets (og cards, touch icon) generated by scripts/og-images.js
+  // into site/assets; copied recursively so og/ ships too.
   if (existsSync(`${ROOT}/site/assets`)) {
     for (const f of readdirSync(`${ROOT}/site/assets`)) {
-      cpSync(`${ROOT}/site/assets/${f}`, `${OUT}/${f}`);
+      cpSync(`${ROOT}/site/assets/${f}`, `${OUT}/${f}`, { recursive: true });
     }
   }
 

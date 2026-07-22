@@ -11,7 +11,17 @@
 // accent, Instrument Sans with JetBrains Mono, per the emoji.group mockup.
 
 import { existsSync, rmSync, cpSync, readdirSync, writeFileSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { ROOT, readJSON, writeJSON, ensureDir, log } from "../lib/util.js";
+
+// Content hashed asset versions, filled in by run() before any page renders.
+// Browsers cache assets for a day, and a deploy only purges the CDN, so a
+// changed stylesheet must change URL or returning visitors get stale CSS.
+const ASSET_V = { css: "", js: "" };
+
+function contentHash(text) {
+  return createHash("sha256").update(text).digest("hex").slice(0, 8);
+}
 
 const DIST = `${ROOT}/dist`;
 const OUT = `${ROOT}/site/public`;
@@ -68,7 +78,7 @@ function head({ title, description, path }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=${ASSET_V.css}">
 </head>
 <body>`;
 }
@@ -390,7 +400,7 @@ ${devSection(model)}
 ` +
     footer(meta) +
     `<div class="toast" id="toast">Copied</div>
-<script src="/site.js" defer></script>
+<script src="/site.js?v=${ASSET_V.js}" defer></script>
 ` +
     pageEnd()
   );
@@ -471,7 +481,7 @@ function buildCollection(model, col) {
     footer(model.meta) +
     `<div class="toast" id="toast">Copied</div>
 <script>window.__ALL__=${JSON.stringify(col.emojis.join(" "))};</script>
-<script src="/site.js" defer></script>
+<script src="/site.js?v=${ASSET_V.js}" defer></script>
 ` +
     pageEnd()
   );
@@ -672,6 +682,13 @@ function run() {
 
   const model = loadModel();
 
+  // Version the assets by content before any page references them, so a CSS
+  // or JS change always busts browser caches via a fresh query string.
+  const css = readFileSync(`${ROOT}/site/style.css`, "utf8");
+  const js = siteJs();
+  ASSET_V.css = contentHash(css);
+  ASSET_V.js = contentHash(js);
+
   writeFileSync(`${OUT}/index.html`, buildLanding(model));
   for (const col of model.collections) {
     writeFileSync(`${OUT}/${col.slug}.html`, buildCollection(model, col));
@@ -687,8 +704,8 @@ function run() {
     });
   }
 
-  writeFileSync(`${OUT}/style.css`, readFileSync(`${ROOT}/site/style.css`, "utf8"));
-  writeFileSync(`${OUT}/site.js`, siteJs());
+  writeFileSync(`${OUT}/style.css`, css);
+  writeFileSync(`${OUT}/site.js`, js);
   writeFileSync(`${OUT}/favicon.svg`, FAVICON_SVG);
   writeFileSync(`${OUT}/llms.txt`, llmsTxt(model));
   writeFileSync(`${OUT}/robots.txt`, `User-agent: *\nAllow: /\nSitemap: ${ORIGIN}/sitemap.xml\n`);

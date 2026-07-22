@@ -905,6 +905,14 @@
       "source": "llm"
     }
   ],
+  "🤑": [
+    {
+      "tag": "trading",
+      "facet": "theme",
+      "confidence": 0.75,
+      "source": "llm"
+    }
+  ],
   "🤖": [
     {
       "tag": "ai",

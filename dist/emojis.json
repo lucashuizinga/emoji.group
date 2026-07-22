@@ -77461,6 +77461,12 @@
         "facet": "domain",
         "confidence": 0.6,
         "source": "llm"
+      },
+      {
+        "tag": "trading",
+        "facet": "theme",
+        "confidence": 0.75,
+        "source": "llm"
       }
     ]
   },

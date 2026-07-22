@@ -40,8 +40,19 @@ Collection record (`/collections/{slug}.json`, also served at `/{slug}.json`):
   "version": "2026-07-21" }
 ```
 
+When a collection contains skin tone variants it also carries
+`emojis_default` and `count_default`: the members without a tone modifier
+(the standard yellow spellings). Collections without tone variants omit the
+fields, so `emojis_default ?? emojis` always gives the standard set:
+
+```json
+{ "slug": "gestures", "count": 278, "emojis": ["👍️", "👍🏻", "👍🏼", "…"],
+  "count_default": 43, "emojis_default": ["👍️", "👋", "…"] }
+```
+
 Safety collections are additionally emitted under `/blocklists/{slug}.json`
-with `mode: "exclude"`, meaning apps should exclude those emojis.
+with `mode: "exclude"`, meaning apps should exclude those emojis. Blocklists
+carry the same default fields, so tone aware exclusion stays one lookup.
 
 ## Facets
 

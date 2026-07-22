@@ -14,5 +14,10 @@
     "🤬"
   ],
   "count": 7,
-  "version": "2026-07-21"
+  "version": "2026-07-21",
+  "emojis_default": [
+    "🖕",
+    "🤬"
+  ],
+  "count_default": 2
 }

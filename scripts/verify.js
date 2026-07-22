@@ -70,6 +70,8 @@ const collectionSchema = {
     mode: { enum: ["include", "exclude"] },
     emojis: { type: "array", items: { type: "string", minLength: 1 } },
     count: { type: "integer", minimum: 0 },
+    emojis_default: { type: "array", items: { type: "string", minLength: 1 } },
+    count_default: { type: "integer", minimum: 0 },
     version: { type: "string" },
   },
 };
@@ -104,6 +106,25 @@ function checkSchema() {
       }
       if (dir === "blocklists" && data.mode !== "exclude") {
         fail(`${dir}/${file} is a blocklist but mode is ${data.mode}`);
+      }
+      if ((data.emojis_default === undefined) !== (data.count_default === undefined)) {
+        fail(`${dir}/${file} has only one of emojis_default and count_default`);
+      }
+      if (data.emojis_default !== undefined) {
+        const members = new Set(data.emojis);
+        if (data.count_default !== data.emojis_default.length) {
+          fail(`${dir}/${file} count_default does not match emojis_default length`);
+        }
+        if (data.emojis_default.length >= data.emojis.length) {
+          fail(`${dir}/${file} emojis_default should be smaller than emojis (else omit it)`);
+        }
+        for (const ch of data.emojis_default) {
+          if (!members.has(ch)) fail(`${dir}/${file} emojis_default has ${ch} not in emojis`);
+        }
+        const sorted = [...data.emojis_default].sort(compareChars);
+        if (JSON.stringify(sorted) !== JSON.stringify(data.emojis_default)) {
+          fail(`${dir}/${file} emojis_default is not sorted by codepoint`);
+        }
       }
       checked += 1;
     }

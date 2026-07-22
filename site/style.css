@@ -174,6 +174,12 @@ h1,h2,h3,h4{margin:0}
 .dactions{display:flex;gap:12px;margin:24px 0 8px;align-items:center;flex-wrap:wrap}
 .dactions input{flex:1;min-width:180px;max-width:280px;margin-left:auto;border:1px solid var(--line);border-radius:9px;background:var(--card);padding:10px 14px;font-family:'Instrument Sans',sans-serif;font-size:13.5px;color:var(--ink);outline:0}
 .dactions input:focus{border-color:var(--accent)}
+.toneswitch{display:inline-flex;border:1px solid var(--line);border-radius:9px;background:var(--card);padding:3px;gap:2px}
+.tswitch{appearance:none;border:0;background:none;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;color:var(--muted);padding:7px 12px;border-radius:7px}
+.tswitch span{color:var(--faint);font-size:11px}
+.tswitch.on{background:var(--ink);color:var(--bg)}
+.tswitch.on span{color:var(--faint2)}
+.tones-hidden .ecell[data-toned="1"]{display:none !important}
 .ranknote{font-size:12px;color:var(--faint);margin:0 0 16px}
 .egrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:6px}
 .ecell{font-size:26px;line-height:1;padding:12px 0;background:var(--card);border:1px solid var(--line);border-radius:9px;cursor:pointer;transition:transform .06s ease,border-color .1s ease}

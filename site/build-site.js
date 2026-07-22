@@ -417,14 +417,23 @@ function buildCollection(model, col) {
     ? `<div class="sibs">${siblings.map((s) => `<a class="chip" href="/${esc(s.slug)}"><span class="chiptag">${esc(tagOf(s))}</span><span class="chipcount">${num(s.count)}</span></a>`).join("")}</div>`
     : "";
 
+  const hasTones = Array.isArray(col.emojis_default);
   const grid = col.ranked
     .map((c) => {
       const rec = model.byChar.get(c);
       const cf = model.conf.get(`${col.facet} ${tag} ${c}`);
       const title = `${rec ? rec.name : c}${cf != null ? ` · ${cf}` : ""}`;
-      return `<button class="ecell" title="${esc(title)}" data-c="${esc(c)}" data-n="${esc(rec ? rec.name : "")}">${c}</button>`;
+      const toned = rec && rec.skin_tone !== null ? ` data-toned="1"` : "";
+      return `<button class="ecell" title="${esc(title)}" data-c="${esc(c)}" data-n="${esc(rec ? rec.name : "")}"${toned}>${c}</button>`;
     })
     .join("");
+
+  const toneSwitch = hasTones
+    ? `<div class="toneswitch" role="group" aria-label="Skin tone variants">
+      <button class="tswitch on" data-tmode="std">Standard <span>${num(col.count_default)}</span></button>
+      <button class="tswitch" data-tmode="all">All skin tones <span>${num(col.count)}</span></button>
+    </div>`
+    : "";
 
   const modeBadge = col.mode === "exclude"
     ? `<span class="pill warn">exclude mode</span>`
@@ -461,12 +470,13 @@ function buildCollection(model, col) {
     </div>
   </div>
   <div class="dactions">
-    <button class="btn dark" id="copyall">Copy all ${num(col.count)}</button>
+    <button class="btn dark" id="copyall">Copy all ${num(hasTones ? col.count_default : col.count)}</button>
     <a class="btn ghost" href="/${esc(col.slug)}.json">View JSON →</a>
+    ${toneSwitch}
     <input id="filter" type="search" placeholder="Filter by name…" aria-label="Filter emojis by name">
   </div>
-  <p class="ranknote">Ranked by how strongly each emoji matches, most representative first. The <a href="/${esc(col.slug)}.json">JSON</a> is sorted by codepoint.</p>
-  <div class="egrid" id="egrid">${grid}</div>
+  <p class="ranknote">Ranked by how strongly each emoji matches, most representative first. The <a href="/${esc(col.slug)}.json">JSON</a> is sorted by codepoint${hasTones ? ", with the standard set in emojis_default" : ""}.</p>
+  <div class="egrid${hasTones ? " tones-hidden" : ""}" id="egrid">${grid}</div>
   <div class="usage">
     <h3>Use it</h3>
     <div class="codebar slim"><span class="get">GET</span> <span class="url">${ORIGIN}/${esc(col.slug)}.json</span><button class="copybtn" data-copy="${ORIGIN}/${esc(col.slug)}.json">copy ⧉</button></div>
@@ -480,7 +490,10 @@ function buildCollection(model, col) {
 ` +
     footer(model.meta) +
     `<div class="toast" id="toast">Copied</div>
-<script>window.__ALL__=${JSON.stringify(col.emojis.join(" "))};</script>
+<script>window.__SETS__=${JSON.stringify({
+      all: col.emojis.join(" "),
+      std: (col.emojis_default || col.emojis).join(" "),
+    })};window.__TMODE__=${JSON.stringify(hasTones ? "std" : "all")};</script>
 <script src="/site.js?v=${ASSET_V.js}" defer></script>
 ` +
     pageEnd()
@@ -523,11 +536,27 @@ function siteJs() {
   });
 
   var copyAll = document.getElementById('copyall');
-  if (copyAll && window.__ALL__) {
+  if (copyAll && window.__SETS__) {
     copyAll.addEventListener('click', function () {
-      copy(window.__ALL__, 'Copied ' + window.__ALL__.split(' ').length + ' emojis');
+      var set = window.__SETS__[window.__TMODE__ || 'all'];
+      copy(set, 'Copied ' + set.split(' ').length + ' emojis');
     });
   }
+
+  // Skin tone switch: standard (no tone modifiers) vs all variants.
+  var grid = document.getElementById('egrid');
+  document.querySelectorAll('.tswitch').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var mode = btn.getAttribute('data-tmode');
+      window.__TMODE__ = mode;
+      document.querySelectorAll('.tswitch').forEach(function (b) { b.classList.toggle('on', b === btn); });
+      if (grid) grid.classList.toggle('tones-hidden', mode === 'std');
+      if (copyAll && window.__SETS__) {
+        var n = window.__SETS__[mode].split(' ').length;
+        copyAll.textContent = 'Copy all ' + n.toLocaleString('en-US');
+      }
+    });
+  });
 
   // Collection page: filter cells by emoji name.
   var filter = document.getElementById('filter');

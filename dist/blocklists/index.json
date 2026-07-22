@@ -18,6 +18,7 @@
       "facet": "safety",
       "mode": "exclude",
       "count": 7,
+      "count_default": 2,
       "version": "2026-07-21"
     },
     {

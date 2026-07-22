@@ -18,6 +18,7 @@
       "facet": "vibe",
       "mode": "include",
       "count": 23,
+      "count_default": 18,
       "version": "2026-07-21"
     },
     {
@@ -72,6 +73,7 @@
       "facet": "vibe",
       "mode": "include",
       "count": 71,
+      "count_default": 21,
       "version": "2026-07-21"
     },
     {
@@ -108,6 +110,7 @@
       "facet": "theme",
       "mode": "include",
       "count": 20,
+      "count_default": 15,
       "version": "2026-07-21"
     },
     {
@@ -117,6 +120,7 @@
       "facet": "domain",
       "mode": "include",
       "count": 35,
+      "count_default": 20,
       "version": "2026-07-21"
     },
     {
@@ -135,6 +139,7 @@
       "facet": "vibe",
       "mode": "include",
       "count": 33,
+      "count_default": 28,
       "version": "2026-07-21"
     },
     {
@@ -144,6 +149,7 @@
       "facet": "vibe",
       "mode": "include",
       "count": 16,
+      "count_default": 11,
       "version": "2026-07-21"
     },
     {
@@ -162,6 +168,7 @@
       "facet": "domain",
       "mode": "include",
       "count": 56,
+      "count_default": 26,
       "version": "2026-07-21"
     },
     {
@@ -180,6 +187,7 @@
       "facet": "gender",
       "mode": "include",
       "count": 565,
+      "count_default": 95,
       "version": "2026-07-21"
     },
     {
@@ -189,6 +197,7 @@
       "facet": "vibe",
       "mode": "include",
       "count": 45,
+      "count_default": 30,
       "version": "2026-07-21"
     },
     {
@@ -270,6 +279,7 @@
       "facet": "category",
       "mode": "include",
       "count": 278,
+      "count_default": 43,
       "version": "2026-07-21"
     },
     {
@@ -297,6 +307,7 @@
       "facet": "domain",
       "mode": "include",
       "count": 40,
+      "count_default": 25,
       "version": "2026-07-21"
     },
     {
@@ -324,6 +335,7 @@
       "facet": "audience",
       "mode": "include",
       "count": 3778,
+      "count_default": 1908,
       "version": "2026-07-21"
     },
     {
@@ -342,6 +354,7 @@
       "facet": "gender",
       "mode": "include",
       "count": 565,
+      "count_default": 95,
       "version": "2026-07-21"
     },
     {
@@ -351,6 +364,7 @@
       "facet": "domain",
       "mode": "include",
       "count": 42,
+      "count_default": 27,
       "version": "2026-07-21"
     },
     {
@@ -369,6 +383,7 @@
       "facet": "gender",
       "mode": "include",
       "count": 310,
+      "count_default": 90,
       "version": "2026-07-21"
     },
     {
@@ -378,6 +393,7 @@
       "facet": "safety",
       "mode": "include",
       "count": 7,
+      "count_default": 2,
       "version": "2026-07-21"
     },
     {
@@ -387,6 +403,7 @@
       "facet": "domain",
       "mode": "include",
       "count": 48,
+      "count_default": 33,
       "version": "2026-07-21"
     },
     {
@@ -414,6 +431,7 @@
       "facet": "category",
       "mode": "include",
       "count": 492,
+      "count_default": 82,
       "version": "2026-07-21"
     },
     {
@@ -432,6 +450,7 @@
       "facet": "set",
       "mode": "include",
       "count": 53,
+      "count_default": 28,
       "version": "2026-07-21"
     },
     {
@@ -459,6 +478,7 @@
       "facet": "vibe",
       "mode": "include",
       "count": 232,
+      "count_default": 32,
       "version": "2026-07-21"
     },
     {
@@ -468,6 +488,7 @@
       "facet": "theme",
       "mode": "include",
       "count": 73,
+      "count_default": 28,
       "version": "2026-07-21"
     },
     {
@@ -486,6 +507,7 @@
       "facet": "skin-tone",
       "mode": "include",
       "count": 323,
+      "count_default": 0,
       "version": "2026-07-21"
     },
     {
@@ -495,6 +517,7 @@
       "facet": "skin-tone",
       "mode": "include",
       "count": 323,
+      "count_default": 0,
       "version": "2026-07-21"
     },
     {
@@ -504,6 +527,7 @@
       "facet": "skin-tone",
       "mode": "include",
       "count": 323,
+      "count_default": 0,
       "version": "2026-07-21"
     },
     {
@@ -513,6 +537,7 @@
       "facet": "skin-tone",
       "mode": "include",
       "count": 323,
+      "count_default": 0,
       "version": "2026-07-21"
     },
     {
@@ -522,6 +547,7 @@
       "facet": "skin-tone",
       "mode": "include",
       "count": 323,
+      "count_default": 0,
       "version": "2026-07-21"
     },
     {
@@ -540,6 +566,7 @@
       "facet": "theme",
       "mode": "include",
       "count": 37,
+      "count_default": 22,
       "version": "2026-07-21"
     },
     {
@@ -549,6 +576,7 @@
       "facet": "vibe",
       "mode": "include",
       "count": 60,
+      "count_default": 30,
       "version": "2026-07-21"
     },
     {
@@ -567,6 +595,7 @@
       "facet": "domain",
       "mode": "include",
       "count": 286,
+      "count_default": 81,
       "version": "2026-07-21"
     },
     {
@@ -603,6 +632,7 @@
       "facet": "theme",
       "mode": "include",
       "count": 58,
+      "count_default": 28,
       "version": "2026-07-21"
     },
     {
@@ -639,6 +669,7 @@
       "facet": "theme",
       "mode": "include",
       "count": 41,
+      "count_default": 16,
       "version": "2026-07-21"
     },
     {

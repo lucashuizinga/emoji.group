@@ -34,7 +34,11 @@ h1,h2,h3,h4{margin:0}
 .btn.dark{background:var(--ink);color:var(--bg);padding:8px 16px}
 .btn.dark:hover{background:#3A362C;color:var(--bg)}
 .btn.ghost{color:color-mix(in oklab,var(--accent),var(--ink) 35%);background:none;padding:8px 4px}
-.navlinks .btn.dark{margin-left:6px}
+.btn.line{background:var(--card);border-color:var(--line);color:var(--ink);padding:8px 16px}
+.btn.line:hover{border-color:var(--accent)}
+.btn.gh{display:inline-flex;align-items:center;gap:8px}
+.navlinks .btn.dark{margin-left:2px}
+.navlinks .btn.line{margin-left:6px}
 
 /* hero */
 .hero{max-width:1120px;margin:0 auto;padding:56px 32px 0;text-align:center}
@@ -143,6 +147,8 @@ h1,h2,h3,h4{margin:0}
 .sig{margin-top:26px;font-size:12.5px;color:var(--faint2)}
 
 .cta .ctatitle{font-size:26px;font-weight:650;letter-spacing:-.02em;margin-bottom:22px}
+.ctarow{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:26px;flex-wrap:wrap}
+.ctanote{font-size:13px;color:var(--faint2);max-width:420px;text-align:left;text-wrap:pretty}
 .terminal{display:inline-flex;align-items:center;gap:12px;background:var(--ink);border:0;border-radius:10px;padding:14px 20px;font-size:13px;color:var(--bg);cursor:pointer}
 .terminal:hover{background:#2A2620}
 .terminal .prompt{color:var(--faint2)}
@@ -213,6 +219,7 @@ h1,h2,h3,h4{margin:0}
   .kidsafe{flex-wrap:wrap}
   .kidmeta{margin-left:0}
   .navlinks a:not(.btn){display:none}
+  .navlinks .btn.line{display:none}
   .mpill{padding:10px 16px;font-size:13.5px}
   .mpglyphs{font-size:18px}
   .negotiate{grid-template-columns:1fr}
